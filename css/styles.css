@@ -1,0 +1,92 @@
+/*---------------Root--------------------*/
+body {
+  font-family: Roboto 400;
+  background-color: honeydew;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  display: inline;
+  font-family: HACKED, sans-serif;
+  font-size: 5em;
+  color: #270b0b;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  display: inline;
+  font-family: Roboto 300 italic;
+  color: #081111;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3,
+a {
+  color: #531850;
+}
+
+/*-------------Classes-----------------*/
+
+.box-container {
+  display: block;
+}
+
+.top-container {
+  display: grid;
+  justify-content: center;
+  background-color: rgb(56, 112, 218);
+}
+
+.middle-container {
+  display: block;
+  background-color: rgb(198, 240, 45);
+}
+
+.bottom-container {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 0;
+  background-color: rgb(56, 112, 218);
+}
+
+.logo {
+  box-sizing: border-box;
+}
+
+.logo-1 {
+  width: 30%;
+  float: left;
+}
+.logo-2 {
+  width: 70%;
+  float: left;
+}
+
+.profile {
+  display: block;
+  justify-content: center;
+}
+
+.face {
+  position: relative;
+  width: 25%;
+  opacity: 80%;
+}
+
+#top-face {
+  width: 75%;
+  bottom: 10px;
+}
+
+.cloud {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: block;
+}
+
+.computer {
+  position: relative;
+  width: 20%;
+}
