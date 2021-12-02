@@ -33,6 +33,12 @@ a:hover {
 
 p {
   text-align: center;
+  width: 600px;
+  font-size: 1.2rem;
+}
+
+hr {
+  color: #f7e330;
 }
 /*-------------Classes-----------------*/
 
@@ -92,13 +98,20 @@ p {
 .skill-row {
   display: block;
   margin: auto;
+  border-bottom: dotted 1px;
+}
+
+.skill-row-img {
+  display: inline-block;
+  width: 10%;
+  margin-top: 5%;
 }
 
 .skill-text {
-  display: block;
-  position: relative;
-  margin: auto;
+  display: inline-block;
 }
+
+/*-----------Batton---------------*/
 
 .btn {
   background: #d9bd34;
