@@ -98,7 +98,14 @@ hr {
 .skill-row {
   display: block;
   margin: auto;
-  border-bottom: dotted 1px;
+}
+
+.skill-border {
+  margin: auto;
+  border-bottom: dotted 5px;
+  border-width: 10px;
+  width: 40%;
+  border-color: chocolate;
 }
 
 .skill-row-img {
