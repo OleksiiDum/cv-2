@@ -52,7 +52,7 @@ p {
   display: inline-block;
   width: 100%;
   height: 700px;
-  background-image: url(". /images/backgr.png");
+  background-image: url("/images/backgr.png");
 }
 
 .middle-container {
