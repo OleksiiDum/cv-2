@@ -26,6 +26,10 @@ h2 {
   font-size: 2.5rem;
 }
 
+h3 {
+  line-height: 3rem;
+}
+
 a {
   color: #b2d80b;
   text-decoration: none;
@@ -121,17 +125,20 @@ p {
 .skill-border {
   margin: auto;
   padding: 10px;
-  border-bottom: dotted 5px;
-  border-width: 10px;
-  width: 15%;
+  border-bottom: solid 1px;
+
   border-color: rgb(58, 177, 98);
 }
 
 .skill-row-img {
   display: inline-block;
   width: 150px;
-  margin-top: 5%;
+  margin-top: 10px;
   margin-right: 50px;
+}
+
+.js-img {
+  width: 100px;
 }
 
 .skill-text {
@@ -141,10 +148,7 @@ p {
 .contact-me {
   margin: 30px auto;
   padding: 20px;
-  border-top: solid 5px;
-  border-width: 10px;
-  width: 25%;
-  border-color: rgb(34, 77, 51);
+  width: 40%;
 }
 /*-----------Batton---------------*/
 
